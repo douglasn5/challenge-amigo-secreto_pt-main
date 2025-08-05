@@ -21,3 +21,10 @@ function atualizarLista() {
     lista.appendChild(li);
   });
 }
+function sortearAmigo() {
+  if (nomes.length < 2) {
+    alert('Adicione pelo menos dois amigos!');
+    return;
+  }
+
+}
